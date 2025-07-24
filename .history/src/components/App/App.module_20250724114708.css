@@ -1,0 +1,43 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.result {
+  text-align: left;
+  background: #f9f9f9;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333; /* <== текст будет тёмный */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
